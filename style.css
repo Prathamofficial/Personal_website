@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poltawski Nowy', serif;
+    background-color: #000;
+}
+
+/* preloder animation */
+#preloder {
+    background: #000 url(images/dpp1.gif) no-repeat center center;
+    background-size: 40%;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+
+#navbar {
+    display: flex;
+    color: #000;
+    align-items: center;
+
+}
+#navbar {
+    position: relative;
+
+}
+
+/* logo and image  */
+#logo {
+    margin: 10px 10px;
+
+}
+
+#logo img {
+    height: 250px;
+    margin: -80px -150px;
+}
+
+#navbar ul {
+    display: flex;
+    padding-left: 30%;
+    
+}
+
+#navbar ul li {
+    display: flex;
+    list-style: none;
+    
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    font-size: 19px;
+    color: #fff;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+    
+}
+
+#navbar ul li a:hover {
+    color: #fff;
+    background-color: #ff1900;
+    transition: 0.5s;
+
+}
+
+
+/* LOGIN PAGE CSS  */
+/* preloder animation */
+#eyepreloder {
+    background: #000 url(images/Eyepreloder.gif) no-repeat center center;
+    background-size: 60%;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+
+
+/* LOGIN PAGE CSSSSS  */
+.container{
+    background-color: #fff;
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)),url();
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background: #fff; */
+    background-color: #fff;
+    padding: 50px 60px 70px ;
+    text-align: center;
+    color: #000;
+
+
+}
+.form-box h1{
+    /* background-color: #fff; */
+ font-size: 30px;
+ margin-bottom: 60px;
+ color: #fff;
+ position: relative;
+}
+.form{
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px) {
+    #eyepreloder {  
+        align-content: center;
+        background-size: 100%;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+    }
+    #preloder {  
+        align-content: center;
+        background-size: 100%;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #preloder {  
+        align-content: center;
+        background-size: 100%;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #preloder {  
+        align-content: center;
+        background-size: 100%;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #preloder {  
+        align-content: center;
+        background-size: 100%;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+
+    #preloder {  
+        align-content: center;
+        background-size: 50%;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    }
+
+}
